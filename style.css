@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(56, 55, 55);
+}
+
+.container{
+    width: 100%;
+    max-width: 300px;
+    margin:20px auto;
+    padding:20px;
+    background-color: pink;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icons img{
+   width: 25px;
+   height:25px;
+}
+
+.icons button {
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    border: 0;
+    outline:0;
+    color:rgb(238, 143, 159);
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+    text-align: center;
+}
+.author img {
+   width:200px;
+   height:200px;
+   border-radius: 50%;
+   border: 10px white solid;
+   margin-bottom: 20px;
+}
+
+.author p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.musicPlay{
+    display: flex;
+    justify-content: space-between;
+}
+
+.musicPlay img{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+}
